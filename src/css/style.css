@@ -1,0 +1,98 @@
+/* global container */
+
+.global-container{
+    padding: 0 20px;
+}
+
+/* App container */
+.app-container{
+    max-width:1000px;
+}
+
+/* About me section */
+.about-me{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* What I do section*/
+
+
+@media screen and (min-width: 500px){
+    .about-me{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+        font-size: 2em;
+        gap: 20px
+    }
+    .whatIDoContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .whatIDo-header{
+        text-align: left;
+    }
+    
+    .myProjects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experience-education{
+        display:grid;
+        grid-template-columns : repeat(2, 1fr);
+        gap:25px
+    }
+
+    .form-layout{
+        display:grid;
+        grid-template-columns:1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .form-layout-card{
+        padding: 20px;
+        border-radius:10px;
+        box-shadow:-10px 10px 50px black;
+        margin: 0 30px 30px 0;
+        width: 100%;
+    }
+
+    .form-details{
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        
+    }
+    
+    .form-textarea{
+        width:100%;
+        margin:10px;
+        min-height:240px;
+        border-radius:10px;
+        background-color:black;
+        color:white;
+    }
+}
+
+
+/* Recent Projects */
+
+/* Contact form */
+
+.form-textarea{
+    width:95%;
+    margin:10px;
+    min-height:240px;
+    border-radius:10px;
+    background-color:black;
+    color:white;
+}
+
+.form-layout-card{
+    padding: 20px;
+    border-radius:10px;
+    box-shadow:-10px 10px 50px black;
+    margin: 0 30px 30px 0;
+    width:100%
+}
