@@ -1,10 +1,10 @@
-import Navigation from "./components/navigation";
-import AboutMe from "./components/aboutme";
-import WhatIDo from "./components/whatido";
-import RecentWorks from "./components/recentworks";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Resume from "./components/resume";
+import Navigation from "../portfolio-components/navigation";
+import AboutMe from "./portfolio-components/aboutme";
+import WhatIDo from "./portfolio-components/whatido";
+import RecentWorks from "./portfolio-components/recentworks";
+import Contact from "./portfolio-components/contact";
+import Footer from "./portfolio-components/footer";
+import Resume from "./portfolio-components/resume";
 import "./css/style.css"
 
 function App() {
