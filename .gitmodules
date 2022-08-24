@@ -1,4 +1,3 @@
-[submodule "src/components"] 
-  path = src/components
-  url = https://github.com/roshan-77/final-react-portfolio.git
-  
+[submodule "portfolio-components"]
+	path = portfolio-components
+	url = https://github.com/roshan-77/portfolio-components
