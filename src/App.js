@@ -1,4 +1,4 @@
-import Navigation from "../portfolio-components/navigation";
+import Navigation from "./portfolio-components/navigation";
 import AboutMe from "./portfolio-components/aboutme";
 import WhatIDo from "./portfolio-components/whatido";
 import RecentWorks from "./portfolio-components/recentworks";
