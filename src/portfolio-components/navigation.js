@@ -8,7 +8,7 @@ const Navigation = () =>{
 			<Container style={{padding: 0}}>
 			  <Navbar.Brand href="#home">ROSHAN</Navbar.Brand>
 			  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-			  <Navbar.Collapse id="responsive-navbar-nav">
+			  <Navbar.Collapse id="responsive-navbar-nav" >
 			    <Nav className="me-auto">
 			      <Nav.Link href="#aboutme">HOME</Nav.Link>
 			      <Nav.Link href="#whatido">SERVICES</Nav.Link>

@@ -14,9 +14,9 @@ function MyVerticallyCenteredModal(props) {
         {props.details.title}
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body className='d-flex justify-content-between'>
-        <img src ={props.details.img} alt="" style={{width:"15vw"}}></img>
-        <div style={{marginLeft:"20px"}}>
+      <Modal.Body className=' project-modal '>
+        <img src ={props.details.img} alt="" style={{height: "250px", width:"auto", display:"block", margin:"0 auto"}}></img>
+        <div className='project-modal-description' >
             <h4>Description</h4>
             <hr style={{marginTop:0}}/>
             <p>{props.details.description}</p>
