@@ -20,10 +20,10 @@ const projects = [
     },
     {
         img:SanPhotofactory,
-        title:"PhotographyWebsite",
-        description:"This is a simple to do list app",
-        website:"https://roshan-77.github.io/ToDoList/",
-        gitlink:"https://github.com/roshan-77/ToDoList",
+        title:"RedditApiExtractor",
+        description:"This is an api extractor application. It uses the api from reddit and displays all the information from that link into a container for users so that they need not visit the website to view the posts ",
+        website:"https://roshan-77.github.io/redditApiExtractor/",
+        gitlink:"https://github.com/roshan-77/redditApiExtractor",
         category: "Personal Project"
     }
 ]
