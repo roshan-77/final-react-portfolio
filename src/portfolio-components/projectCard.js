@@ -33,13 +33,13 @@ function ProjectCard({projects}){
                     <div>
                         <h3 className="text-white fs-5">{projects.title}</h3>
 						            <p>For more information, please click on the buttons below.</p>
-                        <Button variant="info" onClick={() => setModalShow(true)}>Description</Button>
+                        <Button variant="info" onClick={() => setModalShow(true)} style={{fontSize:"12px"}}>Description</Button>
                         <MyVerticallyCenteredModal
                           show={modalShow}
                           onHide={() => setModalShow(false)}
                           details = {projects}
                         />
-                        <Button variant="success" href={projects.website} target="_blank">Visit Website</Button>
+                        <Button variant="success" href={projects.website} style={{fontSize:"12px", marginLeft:"4px"}} target="_blank">Visit Website</Button>
                     </div>
                 </div>
             </div>
