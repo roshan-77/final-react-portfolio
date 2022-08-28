@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import resume from "../Information/Roshan Resume.docx"
 
 
 const Navigation = () =>{
@@ -17,7 +18,7 @@ const Navigation = () =>{
 			      <Nav.Link href="#contact">CONTACT</Nav.Link>
 			    </Nav>
 			    <Nav className="">
-			      <Nav.Link href="#resume" style={{backgroundColor:"#FFDB58", borderRadius:"20px", color:"black", textAlign:"center"}}>Download CV</Nav.Link>
+			      <Nav.Link href={resume} download style={{backgroundColor:"#FFDB58", borderRadius:"20px", color:"black", textAlign:"center"}}>Download CV</Nav.Link>
 			    </Nav>
 			  </Navbar.Collapse>
 			</Container>

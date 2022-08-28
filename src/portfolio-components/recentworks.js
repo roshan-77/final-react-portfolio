@@ -20,7 +20,7 @@ const RecentWorks = () =>{
                     })
                 }
             </div>
-            <div style ={{textAlign:"center"}}><button style ={{fontSize:"20px", padding:"5px", borderRadius:"5px"}}>View All Works</button></div>
+            <div style ={{textAlign:"center"}}><button style ={{fontSize:"20px", padding:"5px", borderRadius:"5px", marginTop:"10px"}}>View More</button></div>
             
         </div>
     )
