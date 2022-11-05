@@ -39,7 +39,7 @@ function ProjectCard({projects}){
                           onHide={() => setModalShow(false)}
                           details = {projects}
                         />
-                        <Button variant="success" href={projects.website} style={{fontSize:"12px", marginLeft:"4px"}} target="_blank">Visit Website</Button>
+                        <Button variant="success" href={projects.website} style={{fontSize:"11px", marginLeft:"4px"}} target="_blank">Visit Website</Button>
                     </div>
                 </div>
             </div>

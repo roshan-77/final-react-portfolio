@@ -22,8 +22,8 @@ function MyVerticallyCenteredModal(props) {
             <p>{props.details.description}</p>
             <h4>Links</h4>
             <hr style={{marginTop:0}}/>
-            <p><a href = {props.details.gitlink} style={{textDecoration: "none", color: "black"}}><b>Github</b> : {props.details.gitlink}</a></p>
-            <p><a href = {props.details.website} style={{textDecoration: "none", color: "black"}}><b>Website</b> : {props.details.website}</a></p>
+            <p><a href = {props.details.gitlink} style={{textDecoration: "none", color: "black"}} target="_blank"><b>Github</b> : {props.details.gitlink}</a></p>
+            <p><a href = {props.details.website} style={{textDecoration: "none", color: "black"}} target="_blank"><b>Website</b> : {props.details.website}</a></p>
         </div>
         
       </Modal.Body>
