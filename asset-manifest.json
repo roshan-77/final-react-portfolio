@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/final-react-portfolio/static/css/main.5c455c77.css",
-    "main.js": "/final-react-portfolio/static/js/main.8f86f994.js",
+    "main.js": "/final-react-portfolio/static/js/main.7db9fa70.js",
     "static/media/bookstore.png": "/final-react-portfolio/static/media/bookstore.968a2b940631e6fad466.png",
+    "static/media/redditapiextractor.jpg": "/final-react-portfolio/static/media/redditapiextractor.53daf18cc553ae3873b9.jpg",
     "static/media/myimage.jpg": "/final-react-portfolio/static/media/myimage.d21e5df0bc71eef47ec2.jpg",
     "static/media/Roshan Resume.docx": "/final-react-portfolio/static/media/Roshan Resume.8f818750c9082a1eaed6.docx",
     "static/media/SanPhotofactory.png": "/final-react-portfolio/static/media/SanPhotofactory.d67e6fe7ad0229cbce20.png",
     "index.html": "/final-react-portfolio/index.html",
     "main.5c455c77.css.map": "/final-react-portfolio/static/css/main.5c455c77.css.map",
-    "main.8f86f994.js.map": "/final-react-portfolio/static/js/main.8f86f994.js.map"
+    "main.7db9fa70.js.map": "/final-react-portfolio/static/js/main.7db9fa70.js.map"
   },
   "entrypoints": [
     "static/css/main.5c455c77.css",
-    "static/js/main.8f86f994.js"
+    "static/js/main.7db9fa70.js"
   ]
 }
