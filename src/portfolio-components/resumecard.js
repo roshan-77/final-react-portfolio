@@ -9,7 +9,7 @@ function ResumeCards({item}) {
         <Card.Subtitle style={{marginBottom: "25px"}}>{item.subTitle}</Card.Subtitle>
         {item.task ? item.task.map(item=>{
           return(
-            <Card.Text key = {uuidv4()}>{item}</Card.Text>
+            <Card.Text key = {uuidv4()} style={{fontStyle:"italic"}}>{item}</Card.Text>
           )
         }): item.text}
         

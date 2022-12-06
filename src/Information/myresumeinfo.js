@@ -4,20 +4,13 @@ export const myResumeInfo = [
         title: "Automation Test Analyst",
         subTitle:"Rotor Studios (2021-2022)",
         task:[
-            "Developing and running the automation scripts on different tasks to minimize manual testing and errors. ( Webdriverio, node.js)",
-            "Performing Regression, Smoke Testing.",
-            "Using tools like Jenkins, Figma, GitHub, and Browser Stack on daily basis"      
-        ]
-    },{
-        id:2,
-        title: "Web Developer",
-        subTitle:"Nakshatra Techno Hub (2022-2022)",
-        task:[
-            "Write well-designed, testable, efficient code by using best software development practices.",
-            "Create website layout/user interface using standard HTML/CSS",
-            "Integrate data from various back-end services and databases.",
-            "Gather and refine specifications and requirements based on technical needs.",
-            "Create and maintain software documentation"
+            "Wrote and optimized test cases to maximize success of manual software testing with consistent, thorough approaches.",
+            "Developed, implemented and maintained automated testware for scripts, functions and programs to boost testing efficiency.",
+            "Developed efficient technical solutions to resolve wide range of business problems.",
+            "Assessed software bugs and compiled findings along with suggested resolutions for development team members.",
+            "Assisted team with development of web-based applications in Agile environment.",
+            "Teamed on planned tests and time-sensitive ad hoc requests.",
+            "Defined and identified test cases for new application development."
         ]
     }
     ],

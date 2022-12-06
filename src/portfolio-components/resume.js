@@ -28,6 +28,8 @@ const Resume = () =>{
                         })}
                     </div>
                 </div>
+                
+                {/* Education */}
                 <div style={{color:"white"}}>
                     <div style={{paddingBottom:"40px"}}>
                         <h1 style={{fontSize:"2em"}}>Education</h1>
